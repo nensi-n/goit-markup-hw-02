@@ -1,0 +1,209 @@
+:root {
+  --main-font: 'Roboto', sans-serif;
+  --secondary-font: 'Raleway', sans-serif;
+  --accent-color: #2196f3;
+}
+
+body {
+  font-family: var(--main-font), var(--secondary-font), Verdana, sans-serif;
+  color: #757575;
+}
+.link {
+  text-decoration: none;
+}
+
+.list {
+  list-style: none;
+}
+
+.address {
+  font-style: normal;
+}
+
+/* ============= COMPONENTS ============= */
+.modal-btn {
+  font-family: inherit;
+  border: none;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+  cursor: pointer;
+  color: #ffffff;
+  background-color: var(--accent-color);
+}
+
+.modal-btn:hover,
+.modal-btn:focus,
+.modal-btn:active {
+  background-color: #188ce8;
+  color: #ffffff;
+  outline: none;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+
+/* ============= END COMPONENTS ============= */
+
+/* ============= HEADER ============= */
+
+.logo {
+  font-family: var(--secondary-font);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.38;
+  letter-spacing: 0.03em;
+  color: var(--accent-color);
+}
+
+.logo-durk-letters {
+  color: #000000;
+}
+
+.navigation-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.17;
+  letter-spacing: 0.02em;
+  color: #212121;
+}
+
+.navigation-link:hover,
+.navigation-link:focus {
+  color: var(--accent-color);
+}
+
+.current {
+  color: var(--accent-color);
+}
+
+.contact-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.17;
+  letter-spacing: 0.02em;
+  color: #757575;
+}
+
+.contact-link:hover,
+.contact-link:focus {
+  color: var(--accent-color);
+}
+/* ============= END HEADER ============= */
+
+/* ============= HERO  ============= */
+.hero-title {
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+  background: #2f303a; /* ====================== УДАЛИТЬ BACKGROUND когда будет сделан фон!!!!!!! ===================== */
+}
+/* ============= END HERO  ============= */
+
+/* ============= About US  ============= */
+.about-list-item {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+.about-list-title {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+/* ============= END About US  ============= */
+
+/* ============= Our occupation  ============= */
+/* ============= END Our occupation  ============= */
+
+/* ============= Development team ============= */
+.title-team {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+
+.list-team {
+  font-size: 16px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+}
+
+/* ============= END Development team  ============= */
+
+/* ============= PORTFOLIO  ============= */
+.portfolio-btn {
+  font-family: inherit;
+  border: none;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
+  cursor: pointer;
+  color: #212121;
+  background: #f5f4fa;
+}
+
+.portfolio-btn:hover,
+.portfolio-btn:focus {
+  background-color: var(--accent-color);
+  color: #ffffff;
+  outline: none;
+}
+
+.title-link {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: #212121;
+}
+.description {
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+/* ============= END PORTFOLIO  ============= */
+
+/* ============= FOOTER LOGO-CONTACT INFORMATION ============= */
+.logo-light-letters {
+  color: #ffffff;
+  background: #2f303a; /* ====================== УДАЛИТЬ BACKGROUND когда будет сделан фон!!!!!!! ===================== */
+}
+
+.contact-list-link {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+  background: #2f303a; /* ====================== УДАЛИТЬ BACKGROUND когда будет сделан фон!!!!!!! ===================== */
+}
+
+.contact-list-link-address {
+  color: #ffffff;
+  background: #2f303a; /* ====================== УДАЛИТЬ BACKGROUND когда будет сделан фон!!!!!!! ===================== */
+}
+.contact-list-link:hover,
+.сontact-list-link:focus,
+.contact-list-link:hover,
+.сontact-list-link:focus {
+  color: var(--accent-color);
+}
+
+/* ============= END FOOTER CONTACT INFORMATION ============= */
