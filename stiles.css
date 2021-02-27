@@ -1,11 +1,12 @@
 :root {
   --main-font: 'Roboto', sans-serif;
   --secondary-font: 'Raleway', sans-serif;
+  --alternative-font: 'Verdana', sans-serif;
   --accent-color: #2196f3;
 }
 
 body {
-  font-family: var(--main-font), var(--secondary-font), Verdana, sans-serif;
+  font-family: var(--main-font), var(--secondary-font), var(--alternative-font);
   color: #757575;
 }
 .link {
