@@ -3,11 +3,19 @@
   --secondary-font: 'Raleway', sans-serif;
   --alternative-font: 'Verdana', sans-serif;
   --accent-color: #2196f3;
+  --main-color: #757575;
+  --second-color: #212121;
+  --white-color: #ffffff;
+  --black-color: #000000;
+  --transparant-color: rgba(255, 255, 255, 0.6);
+  --bckg-button-color: #188ce8;
+  --bckg-btn-color: #f5f4fa;
+  --background-for-delet: #2f303a; /* ====================== УДАЛИТЬ BACKGROUND когда будет сделан фон!!!!!!! ===================== */
 }
 
 body {
   font-family: var(--main-font), var(--secondary-font), var(--alternative-font);
-  color: #757575;
+  color: var(--main-color);
 }
 .link {
   text-decoration: none;
@@ -30,15 +38,15 @@ body {
   line-height: 1.88;
   letter-spacing: 0.06em;
   cursor: pointer;
-  color: #ffffff;
+  color: var(--white-color);
   background-color: var(--accent-color);
 }
 
 .modal-btn:hover,
 .modal-btn:focus,
 .modal-btn:active {
-  background-color: #188ce8;
-  color: #ffffff;
+  background-color: var(bckg-button-color);
+  color: var(--white-color);
   outline: none;
 }
 
@@ -47,7 +55,7 @@ body {
   font-size: 36px;
   line-height: 1.17;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--second-color);
 }
 
 /* ============= END COMPONENTS ============= */
@@ -64,7 +72,7 @@ body {
 }
 
 .logo-durk-letters {
-  color: #000000;
+  color: var(--black-color);
 }
 
 .navigation-link {
@@ -72,7 +80,7 @@ body {
   font-size: 14px;
   line-height: 1.17;
   letter-spacing: 0.02em;
-  color: #212121;
+  color: var(--second-color);
 }
 
 .navigation-link:hover,
@@ -89,7 +97,7 @@ body {
   font-size: 14px;
   line-height: 1.17;
   letter-spacing: 0.02em;
-  color: #757575;
+  color: var(--main-color);
 }
 
 .contact-link:hover,
@@ -105,8 +113,10 @@ body {
   font-size: 44px;
   line-height: 1.36;
   letter-spacing: 0.06em;
-  color: #ffffff;
-  background: #2f303a; /* ====================== УДАЛИТЬ BACKGROUND когда будет сделан фон!!!!!!! ===================== */
+  color: var(--white-color);
+  background: var(
+    --background-for-delet
+  ); /* ====================== УДАЛИТЬ BACKGROUND когда будет сделан фон!!!!!!! ===================== */
 }
 /* ============= END HERO  ============= */
 
@@ -123,7 +133,7 @@ body {
   font-size: 14px;
   line-height: 1.17;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--second-color);
 }
 /* ============= END About US  ============= */
 
@@ -136,7 +146,7 @@ body {
   font-size: 16px;
   line-height: 1.17;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--second-color);
 }
 
 .list-team {
@@ -156,14 +166,14 @@ body {
   line-height: 1.62;
   letter-spacing: 0.03em;
   cursor: pointer;
-  color: #212121;
-  background: #f5f4fa;
+  color: var(--second-color);
+  background: var(--bckg-btn-color);
 }
 
 .portfolio-btn:hover,
 .portfolio-btn:focus {
   background-color: var(--accent-color);
-  color: #ffffff;
+  color: var(--white-color);
   outline: none;
 }
 
@@ -172,33 +182,39 @@ body {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-  color: #212121;
+  color: var(--second-color);
 }
 .description {
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--main-color);
 }
 /* ============= END PORTFOLIO  ============= */
 
 /* ============= FOOTER LOGO-CONTACT INFORMATION ============= */
 .logo-light-letters {
-  color: #ffffff;
-  background: #2f303a; /* ====================== УДАЛИТЬ BACKGROUND когда будет сделан фон!!!!!!! ===================== */
+  color: var(--white-color);
+  background: var(
+    --background-for-delet
+  ); /* ====================== УДАЛИТЬ BACKGROUND когда будет сделан фон!!!!!!! ===================== */
 }
 
 .contact-list-link {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: rgba(255, 255, 255, 0.6);
-  background: #2f303a; /* ====================== УДАЛИТЬ BACKGROUND когда будет сделан фон!!!!!!! ===================== */
+  color: var(--transparant-color);
+  background: var(
+    --background-for-delet
+  ); /* ====================== УДАЛИТЬ BACKGROUND когда будет сделан фон!!!!!!! ===================== */
 }
 
 .contact-list-link-address {
-  color: #ffffff;
-  background: #2f303a; /* ====================== УДАЛИТЬ BACKGROUND когда будет сделан фон!!!!!!! ===================== */
+  color: var(--white-color);
+  background: var(
+    --background-for-delet
+  ); /* ====================== УДАЛИТЬ BACKGROUND когда будет сделан фон!!!!!!! ===================== */
 }
 .contact-list-link:hover,
 .сontact-list-link:focus,
