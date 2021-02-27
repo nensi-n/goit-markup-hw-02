@@ -1,16 +1,15 @@
 :root {
   --main-font: 'Roboto', sans-serif;
   --secondary-font: 'Raleway', sans-serif;
-  --alternative-font: 'Verdana', sans-serif;
   --accent-color: #2196f3;
   --main-color: #757575;
   --second-color: #212121;
-  --white-color: #ffffff;
-  --black-color: #000000;
+  --main-lite-color: #ffffff;
+  --main-dark-color: #000000;
   --transparant-color: rgba(255, 255, 255, 0.6);
   --bckg-button-color: #188ce8;
   --bckg-btn-color: #f5f4fa;
-  --background-for-delet: #2f303a; /* ====================== УДАЛИТЬ BACKGROUND когда будет сделан фон!!!!!!! ===================== */
+  --background-section-footer: #2f303a;
 }
 
 body {
@@ -38,16 +37,16 @@ body {
   line-height: 1.88;
   letter-spacing: 0.06em;
   cursor: pointer;
-  color: var(--white-color);
+  color: var(--main-lite-color);
   background-color: var(--accent-color);
+  border-radius: 4px;
 }
 
 .modal-btn:hover,
 .modal-btn:focus,
 .modal-btn:active {
   background-color: var(bckg-button-color);
-  color: var(--white-color);
-  outline: none;
+  color: var(--main-lite-color);
 }
 
 .title {
@@ -72,7 +71,7 @@ body {
 }
 
 .logo-durk-letters {
-  color: var(--black-color);
+  color: var(--main-dark-color);
 }
 
 .navigation-link {
@@ -84,7 +83,9 @@ body {
 }
 
 .navigation-link:hover,
-.navigation-link:focus {
+.navigation-link:focus,
+.contact-link:hover,
+.contact-link:focus {
   color: var(--accent-color);
 }
 
@@ -100,23 +101,20 @@ body {
   color: var(--main-color);
 }
 
-.contact-link:hover,
-.contact-link:focus {
-  color: var(--accent-color);
-}
 /* ============= END HEADER ============= */
 
 /* ============= HERO  ============= */
+.hero {
+  background: var(--background-section-footer);
+}
+
 .hero-title {
   text-transform: uppercase;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
   letter-spacing: 0.06em;
-  color: var(--white-color);
-  background: var(
-    --background-for-delet
-  ); /* ====================== УДАЛИТЬ BACKGROUND когда будет сделан фон!!!!!!! ===================== */
+  color: var(--main-lite-color);
 }
 /* ============= END HERO  ============= */
 
@@ -168,13 +166,13 @@ body {
   cursor: pointer;
   color: var(--second-color);
   background: var(--bckg-btn-color);
+  border-radius: 4px;
 }
 
 .portfolio-btn:hover,
 .portfolio-btn:focus {
   background-color: var(--accent-color);
-  color: var(--white-color);
-  outline: none;
+  color: var(--main-lite-color);
 }
 
 .title-link {
@@ -193,11 +191,12 @@ body {
 /* ============= END PORTFOLIO  ============= */
 
 /* ============= FOOTER LOGO-CONTACT INFORMATION ============= */
+footer {
+  background: var(--background-section-footer);
+}
+
 .logo-light-letters {
-  color: var(--white-color);
-  background: var(
-    --background-for-delet
-  ); /* ====================== УДАЛИТЬ BACKGROUND когда будет сделан фон!!!!!!! ===================== */
+  color: var(--main-lite-color);
 }
 
 .contact-list-link {
@@ -205,17 +204,12 @@ body {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--transparant-color);
-  background: var(
-    --background-for-delet
-  ); /* ====================== УДАЛИТЬ BACKGROUND когда будет сделан фон!!!!!!! ===================== */
 }
 
 .contact-list-link-address {
-  color: var(--white-color);
-  background: var(
-    --background-for-delet
-  ); /* ====================== УДАЛИТЬ BACKGROUND когда будет сделан фон!!!!!!! ===================== */
+  color: var(--main-lite-color);
 }
+
 .contact-list-link:hover,
 .сontact-list-link:focus,
 .contact-list-link:hover,
