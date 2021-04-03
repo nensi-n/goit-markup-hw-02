@@ -145,7 +145,7 @@ body {
 
 /* ============= Development team ============= */
 .development-team {
-  color: var(--bckg-btn-color);
+  background-color: var(--bckg-btn-color);
 }
 
 .title-development-team {
